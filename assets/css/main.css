@@ -955,7 +955,20 @@ input, select, textarea {
 					margin-left: 0;
 				}
 
-/* Thumbnails */
+/* Thumbnails for artist page*/
+
+/*	#kmddrText{
+		display:  none;
+	}
+
+	#kmddrText:hover{
+		display: block;
+	}*/
+
+	#kmddr:hover{
+		opacity: .2;
+		transition: .5s ease;
+	}
 
 	.artistlink h2{
 		color: inherit;
