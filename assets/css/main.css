@@ -955,7 +955,34 @@ input, select, textarea {
 					margin-left: 0;
 				}
 
-/* Thumbnails*/
+/* Thumbnails for artist page*/
+
+	.artart{
+		/*This affects all articles under the
+		 #thumbnails in artists.html*/
+		width: 100% !important;
+	}
+
+	.artimg{
+		/*This affects all thumbnail
+		  images in artists.html*/
+		max-width: 100%;
+		width: 100%;
+		margin-bottom: 5px;
+		border-radius: 5px;
+	}
+
+	.artimg:hover{
+		opacity: .5;
+		transition: .5s;
+		transition-timing-function: ease-in-out;
+	}
+
+	.artContainer article{
+		/*This affects all articles under the
+		 #thumbnails in artists.html*/
+		width: 100% !important;
+	}
 
 	.artistlink h2{
 		color: inherit;
@@ -987,7 +1014,6 @@ input, select, textarea {
 		#thumbnails article {
 			position: relative;
 			width: 50%;
-			background: darkslategrey;
 			outline: 0;
 			font-family: 'Dela Gothic One', cursive;
 		}
