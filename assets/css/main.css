@@ -987,9 +987,10 @@ input, select, textarea {
 		  images in artists.html*/
 		max-width: 100%;
 		width: 100%;
+		opacity: .5;
 	}
 	.artimg:hover{
-		opacity: .75;
+		opacity: .35;
 		transition: .25s;
 		transition-timing-function: ease-in-out;
 		}
