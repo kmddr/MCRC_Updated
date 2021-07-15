@@ -633,6 +633,13 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		.artcon{
+			/*applies to icons in <li> elements on the
+			artists.html page*/
+			font-weight: 1000px;
+		}
+		
+
 /* List */
 
 	ol {
@@ -987,6 +994,10 @@ input, select, textarea {
 		opacity: .5;
 		transition: .5s;
 		transition-timing-function: ease-in-out;
+	}
+
+	.artistTitle{
+		display:  inline-block
 	}
 
 	.artContainer article{
