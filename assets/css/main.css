@@ -987,14 +987,12 @@ input, select, textarea {
 		  images in artists.html*/
 		max-width: 100%;
 		width: 100%;
-		/*margin-bottom: 5px;*/
 	}
-
 	.artimg:hover{
-		opacity: .5;
-		transition: .5s;
+		opacity: .75;
+		transition: .25s;
 		transition-timing-function: ease-in-out;
-	}
+		}
 
 	.artistTitle{
 		display:  inline-block
@@ -1004,6 +1002,7 @@ input, select, textarea {
 		/*This affects all articles under the
 		 #thumbnails in artists.html*/
 		width: 100% !important;
+		background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.5) 80%, rgba(16,16,16,0)) !important;
 	}
 
 	.artistlink h2{
