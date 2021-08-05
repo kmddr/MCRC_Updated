@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.navBarContainer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: darkslategrey;
+  display: block;
+}
+
+.navBarContainer img{
+  width: 100px;
+  display: inline;
+}
+
+.navHeader{
+  font-family: 'Dela Gothic One', cursive;
+  display: inline;
+  top: 0;
+}
