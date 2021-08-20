@@ -32,6 +32,11 @@
   margin-right: 10px;
 }
 
+#thumbDivContainer{
+	background-color: black !important;
+	color: black;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -57,7 +62,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	background-color: white
+	/*background-color: black;*/
+	-webkit-text-size-adjust: none;
 }
 
 ol, ul {
@@ -78,10 +84,6 @@ table {
 	border-spacing: 0;
 }
 
-body {
-	-webkit-text-size-adjust: none;
-}
-
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -100,7 +102,7 @@ input, select, textarea {
 }
 
 section{
-	display: block !important;
+	display: block;
 }
 
 /* Basic */
@@ -213,7 +215,7 @@ section{
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: 'Dela Gothic One', cursive;
+		font-family: monospace, cursive;
 		font-weight: 400;
 		line-height: 1.25;
 		margin: 0 0 0.5em 0;
@@ -221,12 +223,13 @@ section{
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: darkslategrey;
+			color: white !important;
 			text-decoration: none;
 		}
 
 	h2 {
 		font-size: 2.5em;
+		color: white !important;
 	}
 
 	h3 {
@@ -992,6 +995,7 @@ section{
 
 	#footer {
 		padding: 2.25em 2.25em 1em 2.25em ;
+		background-color: black;
 	}
 
 		#footer .copyright {
@@ -1013,9 +1017,9 @@ section{
 /* Thumbnails for artist page*/
 
 	.thumbnail{
-		color: grey;
 		float: left;
 		margin-top: 10%;
+		background-color: black;
 	}
 
 	.thumbnail h3{
@@ -1117,6 +1121,7 @@ section{
 		flex-wrap: wrap;
 		padding: 0 0.75em;
 		font-family: 'Dela Gothic One', cursive;
+		background-color: black;
 	}
 
 		#thumbnails article {
@@ -1125,6 +1130,7 @@ section{
 			outline: 0;
 			font-family: 'Dela Gothic One', cursive;
 			float: left;
+			background-color: black;
 		}
 
 			#thumbnails article .thumbnail {
@@ -1134,12 +1140,14 @@ section{
 				border: 0;
 				outline: 0;
 				font-family: 'Dela Gothic One', cursive;
+				background-color: black;
 			}
 
 				#thumbnails article .thumbnail img {
 					display: block;
 					width: 100%;
 					font-family: 'Dela Gothic One', cursive;
+					background-color: black;
 				}
 
 				#thumbnails article .thumbnail:before {
@@ -1154,7 +1162,7 @@ section{
 					top: 0;
 					width: 100%;
 					height: 100%;
-					box-shadow: inset 0 0 0 2px darkslategrey inset 0 0 0px 3px rgba(0, 0, 0, 0.15);
+					box-shadow: inset 0 0 0 2px white inset 0 0 0px 3px rgba(0, 0, 0, 0.15);
 					opacity: 0;
 					z-index: 1;
 					font-family: 'Dela Gothic One', cursive;
