@@ -1264,6 +1264,7 @@ section{
 		width: calc(100% - 22.5em);
 		height: 100%;
 		left: 0;
+		padding: 25px !important;
 	}
 
 		#viewer .inner {
@@ -1272,8 +1273,9 @@ section{
 			top: 0;
 			left: 0;
 			width: 100%;
-			height: 75%;
+			height: 80%;
 			z-index: 2;
+			/*margin: 10px;*/
 		}
 
 			#viewer .inner > * {
@@ -1291,8 +1293,8 @@ section{
 				top: 0;
 				left: 0;
 				width: 100%;
-				height: 75%;
-				padding: 50px;
+				height: 100%;
+				/*padding: 50px;*/
 			}
 
 			#viewer .inner .toggle {
@@ -1349,7 +1351,7 @@ section{
 			height: 100%;
 			opacity: 1;
 			z-index: 1;
-	/*		background-color: white;*/
+			/*padding: 10px;*/
 		}
 
 			#viewer .slide .caption {
@@ -1375,15 +1377,15 @@ section{
 				-webkit-transition: opacity 0.5s ease-in-out;
 				-ms-transition: opacity 0.5s ease-in-out;
 				transition: opacity 0.5s ease-in-out;
-				/*position: absolute;*/
-				margin-top: 10%;
-				/*left: 0;*/
+				position: absolute;
+				Left: 0px;
 				width: 100%;
-				height: 75%;
+				height: 100%;
 				background-repeat: no-repeat;
-				background-size: cover;
+				background-size: contain;
+				background-position: center;
 				opacity: 0;
-				margin: 50px;
+				/*margin: 10%;*/
 			}
 
 			#viewer .slide:before {
