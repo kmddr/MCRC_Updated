@@ -15,11 +15,26 @@
   z-index: 999;
 }
 
+.navBarContainer h4:hover{
+	color: lightgrey;
+	transition: .25s ease-in-out;
+}
+
+.navBarContainer .icons li{
+	margin-right: 10px;
+}
+
+.navBarContainer a:hover{
+	color: grey !important;
+	transition: .25s ease-in-out;
+}
+
 .navBarContainer img{
-  height:  50px;
-  display: inline;
+  height: 100%;
+  /*display: inline;*/
   float: left;
   margin-right: 10px;
+  /*margin-bottom: 2%;*/
 }
 
 .navHeader{
@@ -28,8 +43,8 @@
   float: left !important;
   color: white;
   font-size: 30px;
-  bottom: 0;
-  margin-right: 10px;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 #thumbDivContainer{
